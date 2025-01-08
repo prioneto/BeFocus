@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  BeFocus
-//
-//  Created by Dimitris Lolis on 08/01/2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -12,12 +5,12 @@ struct ContentView: View {
         TabView {
             FocusRoomView()
                 .tabItem {
-                    Label("Focus Room", systemImage: "person.3")
+                    Label("Focus Room", systemImage: "person.3.fill")
                 }
             
             TimerView()
                 .tabItem {
-                    Label("Timer", systemImage: "timer")
+                    Label("Timer", systemImage: "clock.fill")
                 }
             
             ProgressView()
@@ -25,6 +18,7 @@ struct ContentView: View {
                     Label("Progress", systemImage: "chart.bar.fill")
                 }
         }
+        .accentColor(.purple) // Add a theme color
     }
 }
 

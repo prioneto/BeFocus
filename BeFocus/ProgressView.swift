@@ -1,10 +1,3 @@
-//
-//  ProgressView.swift
-//  BeFocus
-//
-//  Created by Dimitris Lolis on 08/01/2025.
-//
-
 import SwiftUI
 
 struct ProgressView: View {
@@ -21,6 +14,7 @@ struct ProgressView: View {
                 Text("Completed Sessions:")
                 Spacer()
                 Text("\(completedSessions)")
+                    .font(.headline)
             }
             .padding()
             
@@ -28,10 +22,21 @@ struct ProgressView: View {
                 Text("Total Focus Hours:")
                 Spacer()
                 Text(String(format: "%.1f hours", totalFocusHours))
+                    .font(.headline)
             }
             .padding()
             
             Spacer()
+            
+            Circle()
+                .trim(from: 0.0, to: CGFloat(completedSessions) / 10.0)
+                .stroke(Color.blue, lineWidth: 20)
+                .frame(width: 150, height: 150)
+                .overlay(
+                    Text("\(completedSessions)/10")
+                        .font(.headline)
+                )
+                .padding()
         }
         .padding()
     }

@@ -1,10 +1,3 @@
-//
-//  TimerView.swift
-//  BeFocus
-//
-//  Created by Dimitris Lolis on 08/01/2025.
-//
-
 import SwiftUI
 
 struct TimerView: View {
@@ -14,8 +7,12 @@ struct TimerView: View {
     
     var body: some View {
         VStack {
+            Text("Focus Timer")
+                .font(.title)
+                .padding()
+            
             Text(timeString(from: timeRemaining))
-                .font(.largeTitle)
+                .font(.system(size: 60, weight: .bold, design: .monospaced))
                 .padding()
             
             HStack {
@@ -26,18 +23,24 @@ struct TimerView: View {
                         startTimer()
                     }
                 }
-                .buttonStyle(.borderedProminent)
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(isRunning ? Color.orange : Color.green)
+                .foregroundColor(.white)
+                .cornerRadius(8)
                 
                 Button("Reset") {
                     resetTimer()
                 }
-                .buttonStyle(.bordered)
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color.red)
+                .foregroundColor(.white)
+                .cornerRadius(8)
             }
             .padding()
         }
-        .onDisappear {
-            timer?.invalidate()
-        }
+        .padding()
     }
     
     private func timeString(from seconds: Int) -> String {
