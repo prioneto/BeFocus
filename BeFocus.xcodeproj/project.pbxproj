@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7469D6CD2D2F1AAA000F4738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7469D6B42D2F1AA9000F4738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7469D6BB2D2F1AA9000F4738;
+			remoteInfo = BeFocus;
+		};
+		7469D6D72D2F1AAA000F4738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7469D6B42D2F1AA9000F4738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7469D6BB2D2F1AA9000F4738;
+			remoteInfo = BeFocus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7469D6BC2D2F1AA9000F4738 /* BeFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7469D6CC2D2F1AAA000F4738 /* BeFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7469D6D62D2F1AAA000F4738 /* BeFocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeFocusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7469D6BE2D2F1AA9000F4738 /* BeFocus */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeFocus;
+			sourceTree = "<group>";
+		};
+		7469D6CF2D2F1AAA000F4738 /* BeFocusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeFocusTests;
+			sourceTree = "<group>";
+		};
+		7469D6D92D2F1AAA000F4738 /* BeFocusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeFocusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7469D6B92D2F1AA9000F4738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7469D6C92D2F1AAA000F4738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7469D6D32D2F1AAA000F4738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7469D6B32D2F1AA9000F4738 = {
+			isa = PBXGroup;
+			children = (
+				7469D6BE2D2F1AA9000F4738 /* BeFocus */,
+				7469D6CF2D2F1AAA000F4738 /* BeFocusTests */,
+				7469D6D92D2F1AAA000F4738 /* BeFocusUITests */,
+				7469D6BD2D2F1AA9000F4738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7469D6BD2D2F1AA9000F4738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7469D6BC2D2F1AA9000F4738 /* BeFocus.app */,
+				7469D6CC2D2F1AAA000F4738 /* BeFocusTests.xctest */,
+				7469D6D62D2F1AAA000F4738 /* BeFocusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7469D6BB2D2F1AA9000F4738 /* BeFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7469D6E02D2F1AAA000F4738 /* Build configuration list for PBXNativeTarget "BeFocus" */;
+			buildPhases = (
+				7469D6B82D2F1AA9000F4738 /* Sources */,
+				7469D6B92D2F1AA9000F4738 /* Frameworks */,
+				7469D6BA2D2F1AA9000F4738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7469D6BE2D2F1AA9000F4738 /* BeFocus */,
+			);
+			name = BeFocus;
+			packageProductDependencies = (
+			);
+			productName = BeFocus;
+			productReference = 7469D6BC2D2F1AA9000F4738 /* BeFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7469D6CB2D2F1AAA000F4738 /* BeFocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7469D6E32D2F1AAA000F4738 /* Build configuration list for PBXNativeTarget "BeFocusTests" */;
+			buildPhases = (
+				7469D6C82D2F1AAA000F4738 /* Sources */,
+				7469D6C92D2F1AAA000F4738 /* Frameworks */,
+				7469D6CA2D2F1AAA000F4738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7469D6CE2D2F1AAA000F4738 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7469D6CF2D2F1AAA000F4738 /* BeFocusTests */,
+			);
+			name = BeFocusTests;
+			packageProductDependencies = (
+			);
+			productName = BeFocusTests;
+			productReference = 7469D6CC2D2F1AAA000F4738 /* BeFocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7469D6D52D2F1AAA000F4738 /* BeFocusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7469D6E62D2F1AAA000F4738 /* Build configuration list for PBXNativeTarget "BeFocusUITests" */;
+			buildPhases = (
+				7469D6D22D2F1AAA000F4738 /* Sources */,
+				7469D6D32D2F1AAA000F4738 /* Frameworks */,
+				7469D6D42D2F1AAA000F4738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7469D6D82D2F1AAA000F4738 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7469D6D92D2F1AAA000F4738 /* BeFocusUITests */,
+			);
+			name = BeFocusUITests;
+			packageProductDependencies = (
+			);
+			productName = BeFocusUITests;
+			productReference = 7469D6D62D2F1AAA000F4738 /* BeFocusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7469D6B42D2F1AA9000F4738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7469D6BB2D2F1AA9000F4738 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7469D6CB2D2F1AAA000F4738 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7469D6BB2D2F1AA9000F4738;
+					};
+					7469D6D52D2F1AAA000F4738 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7469D6BB2D2F1AA9000F4738;
+					};
+				};
+			};
+			buildConfigurationList = 7469D6B72D2F1AA9000F4738 /* Build configuration list for PBXProject "BeFocus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7469D6B32D2F1AA9000F4738;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7469D6BD2D2F1AA9000F4738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7469D6BB2D2F1AA9000F4738 /* BeFocus */,
+				7469D6CB2D2F1AAA000F4738 /* BeFocusTests */,
+				7469D6D52D2F1AAA000F4738 /* BeFocusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7469D6BA2D2F1AA9000F4738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7469D6CA2D2F1AAA000F4738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7469D6D42D2F1AAA000F4738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7469D6B82D2F1AA9000F4738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7469D6C82D2F1AAA000F4738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7469D6D22D2F1AAA000F4738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7469D6CE2D2F1AAA000F4738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7469D6BB2D2F1AA9000F4738 /* BeFocus */;
+			targetProxy = 7469D6CD2D2F1AAA000F4738 /* PBXContainerItemProxy */;
+		};
+		7469D6D82D2F1AAA000F4738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7469D6BB2D2F1AA9000F4738 /* BeFocus */;
+			targetProxy = 7469D6D72D2F1AAA000F4738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7469D6DE2D2F1AAA000F4738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7469D6DF2D2F1AAA000F4738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7469D6E12D2F1AAA000F4738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeFocus/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XC5YV9S6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prionetogames.BeFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7469D6E22D2F1AAA000F4738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeFocus/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XC5YV9S6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prionetogames.BeFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7469D6E42D2F1AAA000F4738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XC5YV9S6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prionetogames.BeFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeFocus";
+			};
+			name = Debug;
+		};
+		7469D6E52D2F1AAA000F4738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XC5YV9S6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prionetogames.BeFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeFocus";
+			};
+			name = Release;
+		};
+		7469D6E72D2F1AAA000F4738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XC5YV9S6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prionetogames.BeFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeFocus;
+			};
+			name = Debug;
+		};
+		7469D6E82D2F1AAA000F4738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XC5YV9S6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prionetogames.BeFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeFocus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7469D6B72D2F1AA9000F4738 /* Build configuration list for PBXProject "BeFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7469D6DE2D2F1AAA000F4738 /* Debug */,
+				7469D6DF2D2F1AAA000F4738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7469D6E02D2F1AAA000F4738 /* Build configuration list for PBXNativeTarget "BeFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7469D6E12D2F1AAA000F4738 /* Debug */,
+				7469D6E22D2F1AAA000F4738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7469D6E32D2F1AAA000F4738 /* Build configuration list for PBXNativeTarget "BeFocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7469D6E42D2F1AAA000F4738 /* Debug */,
+				7469D6E52D2F1AAA000F4738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7469D6E62D2F1AAA000F4738 /* Build configuration list for PBXNativeTarget "BeFocusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7469D6E72D2F1AAA000F4738 /* Debug */,
+				7469D6E82D2F1AAA000F4738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7469D6B42D2F1AA9000F4738 /* Project object */;
+}
